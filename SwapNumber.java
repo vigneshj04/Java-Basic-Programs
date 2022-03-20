@@ -16,9 +16,9 @@ public class SwapNumber {
         System.out.println("x = " + x);
         System.out.println("y = " + y);
 
-        int swap = x;
-        x = y;
-        y = swap;
+        x = (x+y);
+        y = (x-y);
+        x = (x-y);
 
         System.out.println("After swap");
         System.out.println("x = " + x);
