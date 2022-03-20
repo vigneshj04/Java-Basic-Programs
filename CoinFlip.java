@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class CoinFlip {
     public static void main(String[] args) {
-        int flip,
-                heads = 0,
-                tails = 0;
+        int flip, heads = 0, tails = 0;
         Scanner toss = new Scanner(System.in);
         System.out.print("enter no. of times you want to flip the coin: ");
         flip = toss.nextInt();
